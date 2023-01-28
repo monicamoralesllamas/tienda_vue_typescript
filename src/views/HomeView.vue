@@ -46,6 +46,7 @@ export default defineComponent({
 .containerLogin{
   background-color: bisque;
   display: flex;
+  justify-content: space-between;
   padding: 30px;
   
 

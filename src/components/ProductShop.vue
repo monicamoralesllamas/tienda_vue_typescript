@@ -15,12 +15,5 @@
     <a href="#" class="card-link">Another link</a>
   </div>
 </div>
-<!-- </div>
-    <div class="products">
-        <slot name="picture"></slot>
-        <slot name="descir"></slot>
-        <slot name="price"></slot>
-        <slot name="footer"></slot>
-    </div> -->
 </template>
 

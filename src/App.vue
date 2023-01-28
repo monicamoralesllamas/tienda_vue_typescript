@@ -24,6 +24,8 @@ export default defineComponent({
 
 <style>
 #app {
+  display: flex;
+  justify-content: center;
   color: #2c3e50;
   background-color: beige;
   padding: 30px;
