@@ -2,7 +2,8 @@ import { createApp, VueElement } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import headerVue from './components/header.vue
-Vue.component('app-header', Header)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap'
+import'@/assets/bootstrap.min.css'
 
 createApp(App).use(store).use(router).mount('#app')
