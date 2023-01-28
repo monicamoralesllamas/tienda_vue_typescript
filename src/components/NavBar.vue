@@ -1,7 +1,7 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">MONISHOP</a>
+    <a class="navbar-brand" href="#">SHOPSHOP</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,7 +11,7 @@
           <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">PRODUCTS</a>
+          <a class="nav-link" href="productos">PRODUCTOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">PROFILE</a>
@@ -23,15 +23,6 @@
     </div>
   </div>
 </nav>
-<!-- <div> //ANTIGUA NAVBAR
-    <nav>
-      <div class="nav-brand">MONISHOP</div>
-      <div class="nav-links">
-        <a href="../views/ProductsView.vue">Productos</a>
-        <a href="#">Perfil</a>      
-      </div>
-    </nav>
-  </div> -->
 </template>
 
 <script lang="ts">
@@ -42,5 +33,7 @@ export default  {
 </script>
 
 <style scoped>
-
+.navbar-brand{
+  color: aqua;
+}
 </style>
