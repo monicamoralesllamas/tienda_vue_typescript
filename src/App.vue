@@ -28,16 +28,9 @@ export default defineComponent({
   justify-content: center;
   color: #2c3e50;
   background-color: beige;
-  padding: 30px;
   width: 100%; 
   height: 100%;
+  
 }
-
-@media only screen and (max-width: 480px) {
-    div#contenedor-login{
-        width:100%;
-    }
-}
-
 
 </style>

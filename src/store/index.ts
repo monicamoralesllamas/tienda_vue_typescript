@@ -1,7 +1,15 @@
-import { createStore } from 'vuex'
+import { createStore } from 'vuex'; 
+import usersModule from "./users";
+import productsModule from "./products"
 
-export default createStore({
+
+export interface IState {
+  greeting: string;
+}
+
+export default createStore<IState>({
   state: {
+    greeting: "WELCOME!!",
   },
   getters: {
   },
@@ -10,5 +18,10 @@ export default createStore({
   actions: {
   },
   modules: {
-  }
+    // cart: cartModule,
+    product : productsModule,
+    users: usersModule
+  },
+  
 })
+

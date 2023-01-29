@@ -12,10 +12,13 @@
           <router-link to="/" class="nav-link active" aria-current="page" >HOME</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/productos" class="nav-link" >PRODUCTOS</router-link>
+          <router-link to="/products" class="nav-link" >PRODUCTS</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/perfil" class="nav-link" >PERFIL</router-link>
+          <router-link to="/product" class="nav-link" >PRODUCT</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/profile" class="nav-link" >PROFILE</router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" tabindex="-1" aria-disabled="true">LOG OUT</a>

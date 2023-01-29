@@ -43,11 +43,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+* {
+  margin: 0px;
+  padding: 10px;
+}
 .containerLogin{
   background-color: bisque;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+
   
 
 }
